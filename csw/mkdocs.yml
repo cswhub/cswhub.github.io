@@ -1,0 +1,46 @@
+site_name: csw
+
+nav:
+  - 首页:
+    - index.md
+  - 技术:
+    - 数据库: technology/1.md
+    - 日期偏移: technology/n.md
+
+theme:
+  language: zh
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: lime
+      toggle:
+        icon: material/brightness-7
+        name: 深色模式
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
+
+
+  features:
+    - navigation.top
+    - navigation.prune
+    - navigation.tracking
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.footer
+
+
+copyright: Copyright &copy; csw
+
+extra:
+  generator: false
