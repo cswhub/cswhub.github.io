@@ -1,4 +1,4 @@
-name: csw
+name: ci
 on:
   push:
     branches:
